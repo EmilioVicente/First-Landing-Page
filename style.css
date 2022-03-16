@@ -11,7 +11,11 @@
 .profphoto {
         width: 200px;
         height: 400px;
-        rotate: y 90deg;
+        transform: rotate(135deg);
+}
+
+body {
+    background-color: black;
 }
 
 .body {
@@ -23,7 +27,7 @@
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .header {
@@ -48,19 +52,26 @@ li {
     font-size: 18px;
     color: #e5e7eb;
     justify-content: center;
+    align-items: center;
+    margin-left: -120px;
 }
+
 .profile h1 {
     color: #e5e7eb;
     font: 48px;
     font-weight: 900;
+    width: 50%;
 }
 
 .info {
     display: flex;
     flex-direction: column;
+    width: 40%;
     align-items: flex-start;
 }
 
-p {
-    display: inline;
+.info p {
+    width: 70%;
 }
+
+
