@@ -1,6 +1,6 @@
 * { 
     box-sizing: border-box;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .logo {
@@ -16,6 +16,7 @@
 
 body {
     background-color: black;
+    margin: 0 0;
 }
 
 .body {
@@ -59,8 +60,9 @@ li {
 .profile h1 {
     color: #e5e7eb;
     font: 48px;
-    font-weight: 900;
+    font-weight: 1000;
     width: 50%;
+    margin: 0;
 }
 
 .info {
@@ -68,10 +70,22 @@ li {
     flex-direction: column;
     width: 40%;
     align-items: flex-start;
+    gap: 10px;
 }
 
 .info p {
     width: 70%;
+    margin: 0;
 }
+
+.info button {
+    background-color: #3382f6;
+    color: #e5e7eb;
+    padding: 8px 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    border: 0;
+} 
 
 
