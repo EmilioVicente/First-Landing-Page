@@ -29,7 +29,7 @@ body {
 .nav {
     display: flex;
     flex-direction: column;
-    background-color: #1f2937;
+    background-color: #1F2937;
     padding-top: 10px;
 }
 
@@ -46,7 +46,7 @@ body {
 
 li {
     list-style-type: none;
-    color: #e5e7eb;
+    color: #E5E7EB;
     text-size-adjust: 18px;
 }
 
@@ -82,7 +82,7 @@ li {
 
 .info button {
     background-color: #3382f6;
-    color: #e5e7eb;
+    color: #E5E7EB;
     padding: 8px 25px;
     border-radius: 10px;
     font-size: 18px;
@@ -94,7 +94,7 @@ li {
 
 .main {
     display: flex;
-    background-color: #e5e7eb;
+    background-color: #FDFEFE;
     flex-direction: column;
     align-items: center;
     padding: 20px;
@@ -110,7 +110,7 @@ li {
 .main h2 {
     font-size: 36px;
     font-weight: 800;
-    color: #1f2937;
+    color: #1F2937;
 }
 
 .characters {
@@ -129,4 +129,26 @@ li {
     align-items: center;
     gap: 5px;
     width: 20%;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 50px 200px;
+
+}
+
+.actualquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+    align-self: center;
+}
+
+.author {
+    font-size: 25px;
+    text-align: end;
+    font-weight: 700;
 }
